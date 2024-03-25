@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+
+.texto-nav {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.list-item {
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    cursor: pointer;
+}
 .titulo {
     text-align:center;
     font-family: "Bebas Neue", sans-serif;
@@ -7,10 +31,75 @@
     color:khaki;
 }
 
-body {
-    background-color: rgb(24, 23, 23);
+.body1 {
+    background-image: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.imagem {
-    color: aqua;
+.model {
+    font-family: "Tauri", sans-serif;
+    color:darkslategray;
+    backdrop-filter: blur(8px);
+    border: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: khaki;
+    padding: 25px;
+}
+
+.titulo2 {
+    text-align:center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.body2 {
+    background-image: url("https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model2 {
+    font-family: "Tauri", sans-serif;
+    background-color: rgba(240, 248, 255, 0.644);
+    border: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+}
+
+.titulo3 {
+    text-align:center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.body3 {
+    background-image: url("https://images.pexels.com/photos/3194469/pexels-photo-3194469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model3 {
+    font-family: "Tauri", sans-serif;
+    background-color: rgba(240, 248, 255, 0.644);
+    border: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: orange;
+    padding: 25px;
 }
